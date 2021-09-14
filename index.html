@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Index Page</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link href="assets/build/css/app.css" rel="stylesheet">
+
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<a class="logo" href="#">loremipsum.<span>net</span></a>				
+				<ul class="menu">
+					<li class="menu__item"><a class="current" href="#">Бизнес</a></li>
+					<li class="menu__item"><a href="#">О нас</a></li>
+					<li class="menu__item"><a href="#">Цены</a></li>
+					<li class="menu__item"><a href="#">Оформить заказ</a></li>
+				</ul>
+				<div class="icon-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>				
+			</div>
+		</div>		
+	</header>
+	<main class="main">		
+		<section class="main__section">
+			<div class="top-section">
+				<div class="container">
+					<p class="top-section__title animate__animated animate__fadeInDown animate__delay-0.5s"><span>Lorem ipsum</span> dolor sit ametconsectetur <span>adipiscing</span></p>
+					<div class="top-section__content animate__animated animate__fadeInLeft animate__delay-1s">
+						<p>At vero eos et accusamus et iusto odio dignissimos ducimus!</p>
+						<ul>
+							<li>Totam rem aperiam eaque ipsa</li>
+							<li>Sit voluptatem accusantium doloremque laudantium</li>
+							<li>Sed ut perspiciatis, unde omnis iste natus error</li>
+						</ul>
+					</div>
+					<div class="top-section__link animate__animated animate__zoomIn animate__delay-1s">
+						<a class="link link--blue" href="#">заказать</a>
+						<a class="link link--white" href="#">подробнее</a>		
+					</div>
+				</div>
+			</div>				
+		</section>
+		<section class="main__section">
+			<div class="bottom-section">
+				<div class="container">
+					<p class="bottom-section__title slideInDown">Оформление  Заказа</p>
+					<p class="bottom-section__sub-title">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+					<div class="element">
+						<div class="element__item">
+							<div class="circle">
+								<div class="circle__icon circle__icon--magnifier"></div>
+							</div>
+							<p class="title">Lorem ipsum dolorsit amet</p>
+						</div>
+						<div class="element__item">
+							<div class="circle">
+								<div class="circle__icon circle__icon--percent"></div>			
+							</div>
+							<p class="title">Сonsecteturadipiscing elit</p>
+						</div>
+						<div class="element__item">
+							<div class="circle">
+								<div class="circle__icon circle__icon--document"></div>			
+							</div>
+							<p class="title">Sed do eiusmod tempor</p>
+						</div>
+						<div class="element__item">
+							<div class="circle">
+								<div class="circle__icon circle__icon--message"></div>			
+							</div>
+							<p class="title">Esse cillum doloreeu fugiat</p>
+						</div>
+						<div class="element__item">
+							<div class="circle">
+								<div class="circle__icon circle__icon--dollar"></div>
+							</div>
+							<p class="title">Excepteur sint occaecat cupidatat non proident</p>
+						</div>
+					</div>
+					<form class="form" action="#" method="post" enctype="multipart/form-data">
+						<div class="form__item-wrapper">	
+							<div class="form__item">
+								<div class="form__select-wrapp">	
+									<select class="form__select" name="select">
+										<option value="">Sed ut perspiciatis </option>
+										<option value="">Test 1 </option>
+										<option value="">Test 2 </option>
+										<option value="">Test 3 </option>
+										<option value="">Test 4 </option>
+									</select>
+								</div>
+							</div>
+							<div class="form__item">
+								<input class="form__input" type="text" name="email" placeholder="Ваш e-mail">
+							</div>
+							<div class="form__item">	
+								<input class="form__input" type="text" name="name" placeholder="Ваше имя">
+							</div>																			
+							<div class="form__item form__item--two-col">
+								<div class="range">
+									<div class="range__wrapper-content">
+										<p class="range__text">Sed ut perspiciatis, unde omnis iste natus</p>
+										<p class="range__value"><span id="range-value-js"></span>%</p>
+									</div>
+									<input type="range" min="1" max="100" value="50" name="range" class="range__input" id="range-input-js">								  
+								</div>
+							</div>
+							<div class="form__item">
+							   <input type="file" name="file" id="input-attach" class="form__input form__input--attach-input" multiple>
+							   <label for="input-attach" class="form__label form__label--attach-label">
+							      <span class="file-icon"></span>
+							      <span class="file-button-text">прикрепить файл</span>
+							   </label>
+							</div>
+						</div>
+						<input class="form__button" type="submit"  value="Отправить" />
+					</form>
+				</div>
+			</div>
+		</section>		
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__inner">	
+			<p class="copyright">&copy; 2018 «LoremIpsum.net» Все права защищены.</p>
+			<div class="payment-systems">
+				<div class="payment-systems__item">	
+					<div class="payment-systems__icon payment-systems__icon--qiwi"></div>
+					<p class="payment-systems__title">Qiwi wallet</p>
+				</div>	
+				<div class="payment-systems__item">	
+					<div class="payment-systems__icon payment-systems__icon--yandex-money"></div>
+					<p class="payment-systems__title">Yandex Money</p>
+				</div>	
+				<div class="payment-systems__item">	
+					<div class="payment-systems__icon payment-systems__icon--web-money"></div>
+					<p class="payment-systems__title">Web Money</p>
+				</div>	
+			</div>
+			<div class="social">
+				<div class="social__item">
+					<div class="social__icon social__icon--email"></div>
+					<a href="maito:info@ipsum228.com" target="_blank" class="social__title">info@ipsum228.com</a>
+				</div>
+			</div>		
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="assets/build/js/app.js"></script>
+</body>
+</html>
